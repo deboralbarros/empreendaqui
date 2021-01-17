@@ -20,7 +20,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/deboralbarros/hackathon-ccr2">
-    <img src="src/images/logo_full_transparente.png" alt="logo_full_transparente" width="200" height="150">
+    <img src="src/images/logo_full_transparente.png" alt="logo_full_transparente" width="600" height="500">
   </a>
   
   <h3>
