@@ -20,9 +20,13 @@ const Footer = ({ history }) => {
     navigation.push("/login");
   };
 
+  const navigateToOptions = () => {
+    navigation.push("/options");
+  };
+
   return (
     <Container>
-      <Button background="transparent" width="20%">
+      <Button background="transparent" width="20%" onClick={navigateToOptions}>
         <MdSettings color="rgba(0, 0, 0, 0.24)" fontSize={32} />
       </Button>
 

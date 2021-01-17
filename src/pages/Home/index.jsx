@@ -29,12 +29,6 @@ const Home = () => {
     history.push("/providersoptions");
   };
 
-  const navigateToOptions = (e) => {
-    e.preventDefault();
-
-    history.push("/options");
-  };
-
   return (
     <Container background={user}>
       <Title>
