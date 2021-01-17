@@ -22,11 +22,12 @@
   <a href="https://github.com/deboralbarros/hackathon-ccr2">
     <img src="src/images/logo_full_transparente.png" alt="logo_full_transparente" width="200" height="150">
   </a>
-  <p align="center">
-    <font size="24" color="#447497" face="Britannic Bold">
-      Aplicação com foco em Web Mobile
-    </font>
-  </p>
+  
+  <font size="24" color="blue" face="Britannic Bold">
+      <p align="center">
+        Aplicação com foco em Web Mobile
+      </p>
+  </font>
   
   <br />
   <br />
