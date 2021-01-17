@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+
 import { useHistory } from "react-router-dom";
 
 import { Container } from "./style";
@@ -13,7 +15,13 @@ const Provider = () => {
     history.push("/providerslist");
   };
 
-  const user = "empresa";
+  const [user, setUser] = useState("");
+
+  useEffect(() => {
+    const localUser = localStorage.getItem("user");
+
+    setUser(localUser);
+  }, [user]);
 
   return (
     <Container>

@@ -33,15 +33,9 @@ const Home = () => {
     history.push("/options");
   };
 
-  const navigateToLogin = (e) => {
-    e.preventDefault();
-
-    history.push("/login");
-  };
-
   return (
     <Container background={user}>
-      <Title>NOME-DA-EMPRESA</Title>
+      <Title>EmpreendAqui</Title>
 
       <Button
         background={

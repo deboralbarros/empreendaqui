@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 
 import { Container } from "./style";
@@ -14,7 +14,11 @@ const Customer = () => {
     history.push("/bidlist");
   };
 
-  const user = "fornecedor";
+  const [user, setUser] = useState("");
+
+  useEffect(() => {
+    setUser(localStorage.getItem("user"));
+  }, [user]);
 
   return (
     <Container>

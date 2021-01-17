@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 
 import { Container, Form, Category, Label, Select } from "./style";
@@ -6,9 +7,15 @@ import Header from "../../components/Header";
 import Button from "../../components/Button";
 
 const SearchProviders = () => {
-  const history = useHistory();
+  const [user, setUser] = useState("");
 
-  const user = "fornecedor";
+  useEffect(() => {
+    const localUser = localStorage.getItem("user");
+
+    setUser(localUser);
+  }, [user]);
+
+  const history = useHistory();
 
   const navigateToProvidersList = (e) => {
     e.preventDefault();
