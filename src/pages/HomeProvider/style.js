@@ -3,7 +3,22 @@ import styled from "styled-components";
 export const Container = styled.div`
     background-color: rgba(79, 193, 142, 0.22);
     height: 100vh;
-    padding-bottom: 50px;
+    display: flex
+    flex-direction: column
+    align-items: center;
+    justify-content: space-between
+`;
+
+export const Title = styled.h1`
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+    padding-bottom: 120px;
+    color: rgba(0, 0, 0, 0.34);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 1000;
+    text-align: center;
 `;
 
 export const Form = styled.form`
@@ -11,14 +26,6 @@ export const Form = styled.form`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-`;
-
-export const Category = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 90%;
-    margin: 20px 0;
 `;
 
 export const Label = styled.label`
@@ -35,3 +42,13 @@ export const Select = styled.select`
     font-size: 18px;
     color: #cacaca;
 `;
+
+export const Applogo = styled.img`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 50px;
+`;
+

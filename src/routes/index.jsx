@@ -1,28 +1,32 @@
 import { Switch, Route } from "react-router-dom";
 
+<<<<<<< HEAD
 import InitialPage from "../pages/InitialPage";
+=======
+import HomeProvider from "../pages/HomeProvider";
+import Profile from "../pages/Profile";
+import Options from "../pages/Options";
+import ProvidersOptions from "../pages/ProvidersOptions"
+>>>>>>> c984837f5f1b42e5e144f3b4023858d3dd6bc437
 import SearchProviders from "../pages/SearchProviders";
 import ProvidersList from "../pages/ProvidersList";
 import Provider from "../pages/Provider";
 import TransactionHistory from "../pages/TransactionHistory";
 import CreateBid from "../pages/CreateBid";
 import Customer from "../pages/Customer";
-import Tips from "../pages/Tips";
-import Home from "../pages/Home";
-import TurnsMei from "../pages/TurnsMei";
-import SelectProfile from "../pages/SelectProfile";
-import Login from "../pages/Login";
 
 const Routes = () => (
   <Switch>
     <Route path="/" exact component={InitialPage} />
     <Route path="/register" exact />
-    <Route path="/login" exact component={Login} />
+    <Route path="/login" exact />
     <Route path="/findcustomers" exact />
-    <Route path="/home" exact component={Home} />
-    <Route path="/options" exact />
-    <Route path="/profile" exact />
+    <Route path="/home" exact />
+    <Route path="/homeprovider" exact component={HomeProvider}/>
+    <Route path="/options" exact component={Options}/>
+    <Route path="/profile" exact component={Profile}/>
     <Route path="/provider" exact component={Provider} />
+    <Route path="/providersoptions" exact component={ProvidersOptions} />
     <Route path="/providerslist" exact component={ProvidersList} />
     <Route path="/startyourbusiness" exact />
     <Route path="/customer" exact component={Customer} />
@@ -32,9 +36,6 @@ const Routes = () => (
     <Route path="/transactionhistory" exact component={TransactionHistory} />
     <Route path="/history" exact component={TransactionHistory} />
     <Route path="/createbid" component={CreateBid} />
-    <Route path="/tips" exact component={Tips} />
-    <Route path="/turnsmei" exact component={TurnsMei} />
-    <Route path="/selectprofile" exact component={SelectProfile} />
   </Switch>
 );
 
