@@ -24,6 +24,10 @@ const Footer = ({ history }) => {
     navigation.push("/options");
   };
 
+  const navigateToProfile = () => {
+    navigation.push("/profile");
+  };
+
   return (
     <Container>
       <Button background="transparent" width="20%" onClick={navigateToOptions}>
@@ -50,7 +54,7 @@ const Footer = ({ history }) => {
         </Button>
       )}
 
-      <Button background="transparent" width="20%">
+      <Button background="transparent" width="20%" onClick={navigateToProfile}>
         <CgProfile color="rgba(0, 0, 0, 0.24)" fontSize={32} />
       </Button>
     </Container>

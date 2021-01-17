@@ -7,8 +7,14 @@ import Logo from "../../images/logo_full_transparente.png";
 const InitialPage = () => {
   const history = useHistory();
 
+  const user = localStorage.getItem("user");
+
   setTimeout(() => {
-    history.push("/selectProfile");
+    if (user) {
+      history.push("/home");
+    } else {
+      history.push("/selectprofile");
+    }
   }, 2000);
 
   return (
