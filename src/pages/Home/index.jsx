@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 
 import { Container, Title, Applogo } from "./style";
@@ -12,7 +13,13 @@ import jovem from "../../images/Group2.png";
 const Home = () => {
   const history = useHistory();
 
-  const user = "jovem";
+  const [user, setUser] = useState("");
+
+  useEffect(() => {
+    const localUser = localStorage.getItem("user");
+
+    setUser(localUser);
+  }, [user]);
 
   const navigateToProvidersOptions = (e) => {
     e.preventDefault();

@@ -10,12 +10,13 @@ import Tips from "../pages/Tips";
 import Home from "../pages/Home";
 import TurnsMei from "../pages/TurnsMei";
 import SelectProfile from "../pages/SelectProfile";
+import Login from "../pages/Login";
 
 const Routes = () => (
   <Switch>
     <Route path="/" exact />
     <Route path="/register" exact />
-    <Route path="/login" exact />
+    <Route path="/login" exact component={Login} />
     <Route path="/findcustomers" exact />
     <Route path="/home" exact component={Home} />
     <Route path="/options" exact />
