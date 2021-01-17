@@ -13,10 +13,12 @@ const Provider = () => {
     history.push("/providerslist");
   };
 
+  const user = "empresa";
+
   return (
     <Container>
       <Header title="Contato do Fornecedor" onBack={backToProvidersList} />
-      <InfoCard />
+      <InfoCard user={user} />
 
       <Button background="transparent" color="rgba(0, 0, 0, 0.22)">
         Tela inicial

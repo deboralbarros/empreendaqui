@@ -5,6 +5,7 @@ import ProvidersList from "../pages/ProvidersList";
 import Provider from "../pages/Provider";
 import TransactionHistory from "../pages/TransactionHistory";
 import CreateBid from "../pages/CreateBid";
+import Customer from "../pages/Customer";
 
 const Routes = () => (
   <Switch>
@@ -18,8 +19,9 @@ const Routes = () => (
     <Route path="/provider" exact component={Provider} />
     <Route path="/providerslist" exact component={ProvidersList} />
     <Route path="/startyourbusiness" exact />
-    <Route path="/customer" exact />
+    <Route path="/customer" exact component={Customer} />
     <Route path="/searchproviders" exact component={SearchProviders} />
+    <Route path="/bidlist" exact component={ProvidersList} />
     <Route path="/searchbid" exact component={SearchProviders} />
     <Route path="/transactionhistory" exact component={TransactionHistory} />
     <Route path="/createbid" component={CreateBid} />

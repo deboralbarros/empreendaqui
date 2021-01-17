@@ -52,4 +52,14 @@ export const Price = styled.h3`
   font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  padding: 20px;
+  margin-top: -15px;
+  border: ${({ border }) => border && "1px solid #949494"};
+  border-radius: 4px;
+`;
+
+export const Text = styled.p`
+  color: #3c3c3c;
+  margin: 10px 0;
+  font-weight: ${({ normal }) => (normal ? "500" : "300")};
 `;

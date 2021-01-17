@@ -8,13 +8,17 @@ import Button from "../../components/Button";
 const SearchProviders = () => {
   const history = useHistory();
 
+  const user = "fornecedor";
+
   const navigateToProvidersList = (e) => {
     e.preventDefault();
 
-    history.push("/providerslist");
+    if (user === "empresa") {
+      history.push("/providerslist");
+    } else {
+      history.push("/bidlist");
+    }
   };
-
-  const user = "fornecedor";
 
   return (
     <Container background={user}>

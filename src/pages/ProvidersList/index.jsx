@@ -9,15 +9,23 @@ import Button from "../../components/Button";
 const ProvidersList = () => {
   const history = useHistory();
 
+  const user = "fornecedor";
+
   const backToSearchProviders = () => {
-    history.push("/searchproviders");
+    if (user === "empresa") {
+      history.push("/searchproviders");
+    } else {
+      history.push("/searchbid");
+    }
   };
 
   const navigateToProvider = () => {
-    history.push("/provider");
+    if (user === "empresa") {
+      history.push("/provider");
+    } else {
+      history.push("/customer");
+    }
   };
-
-  const user = "fornecedor";
 
   const button = (
     <Button
