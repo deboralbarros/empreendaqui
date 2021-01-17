@@ -23,15 +23,15 @@
     <img src="src/images/logo_full_transparente.png" alt="logo_full_transparente" width="200" height="150">
   </a>
   
-  <font size="24" color="blue" face="Britannic Bold">
-      <p align="center">
+  <h3>
+      <p align="center" color:"#447497">
         Aplicação com foco em Web Mobile
       </p>
-  </font>
+  </h3>
   
   <br />
   <br />
-  <h3 
+  <h2 
     <p align="center">
       A solução que você estava esperando para se tornar um futuro empreendedor, com as ferramentas necessárias que te ajudam a trilhar essa jornada!
       <br />
@@ -40,7 +40,7 @@
       <br />
       <a href="https://empreendaqui.vercel.app/">Veja a Demo</a>
     </p>
-  </h3>
+  </h2>
 </p>
 
 <br />
