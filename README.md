@@ -20,7 +20,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/deboralbarros/hackathon-ccr2/README.md">
-    <img src="images/logo_full_transparente.png" alt="Logo" width="80" height="80">
+    <img src="images/logo_full_transparente.png" alt="logo_full_transparente.png" width="80" height="80">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
