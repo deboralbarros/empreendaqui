@@ -31,7 +31,6 @@
   
   <br />
   <br />
-  <h2 
     <p align="center">
       A solução que você estava esperando para se tornar um futuro empreendedor, com as ferramentas necessárias que te ajudam a trilhar essa jornada!
       <br />
@@ -40,7 +39,6 @@
       <br />
       <a href="https://empreendaqui.vercel.app/">Veja a Demo</a>
     </p>
-  </h2>
 </p>
 
 <br />
