@@ -1,5 +1,7 @@
 import { Switch, Route } from "react-router-dom";
 
+import SearchProviders from "../pages/SearchProviders";
+
 const Routes = () => (
   <Switch>
     <Route path="/" exact />
@@ -13,6 +15,7 @@ const Routes = () => (
     <Route path="/providerslist" exact />
     <Route path="/startyourbusiness" exact />
     <Route path="/customer" exact />
+    <Route path="/searchproviders" exact component={SearchProviders} />
   </Switch>
 );
 
