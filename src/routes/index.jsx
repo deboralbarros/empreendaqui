@@ -1,5 +1,9 @@
 import { Switch, Route } from "react-router-dom";
 
+import HomeProvider from "../pages/HomeProvider";
+import Profile from "../pages/Profile";
+import Options from "../pages/Options";
+import ProvidersOptions from "../pages/ProvidersOptions"
 import SearchProviders from "../pages/SearchProviders";
 import ProvidersList from "../pages/ProvidersList";
 import Provider from "../pages/Provider";
@@ -14,9 +18,11 @@ const Routes = () => (
     <Route path="/login" exact />
     <Route path="/findcustomers" exact />
     <Route path="/home" exact />
-    <Route path="/options" exact />
-    <Route path="/profile" exact />
+    <Route path="/homeprovider" exact component={HomeProvider}/>
+    <Route path="/options" exact component={Options}/>
+    <Route path="/profile" exact component={Profile}/>
     <Route path="/provider" exact component={Provider} />
+    <Route path="/providersoptions" exact component={ProvidersOptions} />
     <Route path="/providerslist" exact component={ProvidersList} />
     <Route path="/startyourbusiness" exact />
     <Route path="/customer" exact component={Customer} />
