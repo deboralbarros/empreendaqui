@@ -1,15 +1,16 @@
-import { Switch, Route, useHistory } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 import InitialPage from "../pages/InitialPage";
 import Profile from "../pages/Profile";
+import Home from "../pages/InitialPage";
 import Options from "../pages/Options";
+import ProvidersOptions from "../pages/ProvidersOptions";
 import SearchProviders from "../pages/SearchProviders";
 import ProvidersList from "../pages/ProvidersList";
 import Provider from "../pages/Provider";
 import TransactionHistory from "../pages/TransactionHistory";
 import CreateBid from "../pages/CreateBid";
 import Customer from "../pages/Customer";
-import Home from "../pages/Home";
 import Login from "../pages/Login";
 import SelectProfile from "../pages/SelectProfile";
 
@@ -20,6 +21,7 @@ const Routes = () => {
       <Route path="/selectprofile" exact component={SelectProfile} />
       <Route path="/login" exact component={Login} />
       <Route path="/home" exact component={Home} />
+      <Route path="/providersoptions" exact component={ProvidersOptions} />
       <Route path="/options" exact component={Options} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/provider" exact component={Provider} />
