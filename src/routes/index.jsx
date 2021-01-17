@@ -1,6 +1,11 @@
 import { Switch, Route } from "react-router-dom";
 
-import InitialPage from "../pages/InitialPage";
+
+import Home from "../pages/InitialPage";
+import Profile from "../pages/Profile"
+import HomeProvider from "../pages/HomeProvider";
+import Options from "../pages/Options";
+import ProvidersOptions from "../pages/ProvidersOptions";
 import SearchProviders from "../pages/SearchProviders";
 import ProvidersList from "../pages/ProvidersList";
 import Provider from "../pages/Provider";
