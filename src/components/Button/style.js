@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Container = styled.button`
   background-color: ${({ background }) => background};
   width: ${({ width }) => width};
-  padding: 10px;
-  color: #fff;
+  padding: 15px;
+  color: ${({ color }) => color};
   border-radius: 4px;
   box-shadow: ${({ shadow }) =>
     shadow
@@ -17,4 +17,8 @@ export const Container = styled.button`
   text-align: center;
   border: ${({ border }) =>
     border ? "1px solid rgba(0, 0, 0, 0.33)" : "none"};
+
+  svg {
+    margin-right: 10px;
+  }
 `;

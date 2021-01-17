@@ -1,3 +1,5 @@
+import { useHistory } from "react-router-dom";
+
 import {
   Container,
   Column,
@@ -10,6 +12,12 @@ import {
 import Button from "../Button";
 
 const ProviderCard = () => {
+  const history = useHistory();
+
+  const navigateToProvider = () => {
+    history.push("/provider");
+  };
+
   return (
     <Container>
       <Column>
@@ -23,7 +31,7 @@ const ProviderCard = () => {
         <Date>16/01/2021</Date>
       </Column>
       <Column>
-        <Button background="#4FC18E" width="100%">
+        <Button background="#4FC18E" width="100%" onClick={navigateToProvider}>
           Contatar fornecedor
         </Button>
       </Column>

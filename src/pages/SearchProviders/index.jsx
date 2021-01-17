@@ -44,6 +44,7 @@ const SearchProviders = () => {
           background="#4FC18E"
           width="80%"
           onClick={navigateToProvidersList}
+          shadow
         >
           Lista de fornecedores
         </Button>
