@@ -28,7 +28,11 @@ const Provider = () => {
       <Header title="Contato do Fornecedor" onBack={backToProvidersList} />
       <InfoCard user={user} />
 
-      <Button background="transparent" color="rgba(0, 0, 0, 0.22)">
+      <Button
+        background="transparent"
+        color="rgba(0, 0, 0, 0.22)"
+        onClick={() => history.push("/home")}
+      >
         Tela inicial
       </Button>
     </Container>
