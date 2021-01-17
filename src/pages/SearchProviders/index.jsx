@@ -4,7 +4,6 @@ import { Container, Form, Category, Label, Select } from "./style";
 
 import Header from "../../components/Header";
 import Button from "../../components/Button";
-import Footer from "../../components/Footer";
 
 const SearchProviders = () => {
   const history = useHistory();

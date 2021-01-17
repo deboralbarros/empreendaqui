@@ -17,23 +17,34 @@ const ProvidersList = () => {
     history.push("/provider");
   };
 
+  const user = "fornecedor";
+
   const button = (
-    <Button background="#4FC18E" width="100%" onClick={navigateToProvider}>
-      Contatar fornecedor
+    <Button
+      background={user === "empresa" ? "#4FC18E" : "#DE6767"}
+      width="100%"
+      onClick={navigateToProvider}
+    >
+      {user === "empresa" ? "Contatar fornecedor" : "Fazer Oferta"}
     </Button>
   );
 
   return (
-    <Container>
-      <Header title="Lista de Fornecedores" onBack={backToSearchProviders} />
+    <Container background={user}>
+      <Header
+        title={
+          user === "empresa" ? "Lista de Fornecedores" : "Lista de Licitações"
+        }
+        onBack={backToSearchProviders}
+      />
       <List>
-        <ProviderCard button={button} />
-        <ProviderCard button={button} />
-        <ProviderCard button={button} />
-        <ProviderCard button={button} />
-        <ProviderCard button={button} />
-        <ProviderCard button={button} />
-        <ProviderCard button={button} />
+        <ProviderCard button={button} user={user} />
+        <ProviderCard button={button} user={user} />
+        <ProviderCard button={button} user={user} />
+        <ProviderCard button={button} user={user} />
+        <ProviderCard button={button} user={user} />
+        <ProviderCard button={button} user={user} />
+        <ProviderCard button={button} user={user} />
       </List>
     </Container>
   );
