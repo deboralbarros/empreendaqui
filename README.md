@@ -28,7 +28,7 @@
   <p align="center">
     A solução que você estava esperando para se tornar um futuro empreendedor, com as ferramentas necessárias que te ajudam a trilhar essa jornada!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore a nossa solução! »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
