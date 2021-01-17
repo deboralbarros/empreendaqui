@@ -28,42 +28,41 @@
   <p align="center">
     A solução que você estava esperando para se tornar um futuro empreendedor, com as ferramentas necessárias que te ajudam a trilhar essa jornada!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore a nossa solução! »</strong></a>
+    <a href="https://www.figma.com/file/qQgBlxboVCGTH9rw9iIRry/EmpreendAqui?node-id=0%3A1"><strong>Explore a nossa solução! »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://google.com">Veja a Demo</a>
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Table of Contents</summary>
+  <summary>Sumário</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#sobre-o-projeto">Sobre o Projeto</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#instalacao-ferramentas">Instalação das Ferramentas</a>
+    </li>
+    <li>
+      <a href="#desenvolvendo-o-projeto">Desenvolvendo o Projeto</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#design-telas">Design das Telas</a></li>
+        <li><a href="#codigo">Código</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#publico-alvo">Público Alvo</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#time">Time</a>
+      <ul>
+        <li><a href="#entusiasta">Entusiasta da Educação</a></li>
+        <li><a href="#design">Design/UX</a></li>
+        <li><a href="#marketing">Marketing</a></li>
+        <li><a href="#desenvolvedores">Desenvolvedores da Aplicação</a></li>
+      </ul>
+    </li>
+    <li><a href="#contatos">Contatos</a></li>
   </ol>
 </details>
 
