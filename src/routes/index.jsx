@@ -8,6 +8,7 @@ import CreateBid from "../pages/CreateBid";
 import Customer from "../pages/Customer";
 import Tips from "../pages/Tips";
 import HomeProvider from "../pages/HomeProvider";
+import TurnsMei from "../pages/TurnsMei";
 
 const Routes = () => (
   <Switch>
@@ -29,6 +30,7 @@ const Routes = () => (
     <Route path="/history" exact component={TransactionHistory} />
     <Route path="/createbid" component={CreateBid} />
     <Route path="/tips" exact component={Tips} />
+    <Route path="/turnsmei" exact component={TurnsMei} />
   </Switch>
 );
 
