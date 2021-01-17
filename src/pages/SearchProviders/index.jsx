@@ -15,9 +15,17 @@ const SearchProviders = () => {
     history.push("/providerslist");
   };
 
+  const user = "fornecedor";
+
   return (
-    <Container>
-      <Header title="Escolha o tipo de fornecedor" />
+    <Container background={user}>
+      <Header
+        title={
+          user === "empresa"
+            ? "Escolha o tipo de fornecedor"
+            : "Escolha o tipo de licitação"
+        }
+      />
 
       <Form>
         <Category>
@@ -42,12 +50,12 @@ const SearchProviders = () => {
         </Category>
 
         <Button
-          background="#4FC18E"
+          background={user === "empresa" ? "#4FC18E" : "#DE6767"}
           width="80%"
           onClick={navigateToProvidersList}
           shadow
         >
-          Lista de fornecedores
+          {user === "empresa" ? "Lista de fornecedores" : "Lista de Licitações"}
         </Button>
       </Form>
     </Container>

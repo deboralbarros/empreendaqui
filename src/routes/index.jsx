@@ -20,6 +20,7 @@ const Routes = () => (
     <Route path="/startyourbusiness" exact />
     <Route path="/customer" exact />
     <Route path="/searchproviders" exact component={SearchProviders} />
+    <Route path="/searchbid" exact component={SearchProviders} />
     <Route path="/transactionhistory" exact component={TransactionHistory} />
     <Route path="/createbid" component={CreateBid} />
   </Switch>
