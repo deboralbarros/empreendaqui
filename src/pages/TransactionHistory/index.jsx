@@ -11,16 +11,21 @@ const TransactionHistory = () => {
     </Button>
   );
 
+  const user = "fornecedor";
+
   return (
-    <Container>
+    <Container background={user}>
       <Header title="Histórico de Transações" />
       <List>
-        <ProviderCard button={button} />
-        <ProviderCard button={button} />
-        <ProviderCard button={button} />
-        <ProviderCard button={button} />
-        <ProviderCard button={button} />
-        <ProviderCard button={button} />
+        <ProviderCard button={button} user={user} history />
+        <ProviderCard button={button} user={user} history />
+        <ProviderCard button={button} user={user} history />
+        <ProviderCard button={button} user={user} history />
+        <ProviderCard button={button} user={user} history />
+        <ProviderCard button={button} user={user} history />
+        <ProviderCard button={button} user={user} history />
+        <ProviderCard button={button} user={user} history />
+        <ProviderCard button={button} user={user} history />
       </List>
     </Container>
   );

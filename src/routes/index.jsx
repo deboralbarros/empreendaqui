@@ -24,6 +24,7 @@ const Routes = () => (
     <Route path="/bidlist" exact component={ProvidersList} />
     <Route path="/searchbid" exact component={SearchProviders} />
     <Route path="/transactionhistory" exact component={TransactionHistory} />
+    <Route path="/history" exact component={TransactionHistory} />
     <Route path="/createbid" component={CreateBid} />
   </Switch>
 );

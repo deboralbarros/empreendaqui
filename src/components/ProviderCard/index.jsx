@@ -7,13 +7,19 @@ import {
   Date,
 } from "./style";
 
-const ProviderCard = ({ button, user }) => {
+const ProviderCard = ({ button, user, history }) => {
   return (
     <Container>
       <Column>
         <ColumnTitle>Produto</ColumnTitle>
         <ColumnContent>Pães Hot Dog</ColumnContent>
-        <Price>{user === "empresa" ? "R$ 1,00/un" : "600/un por mês"}</Price>
+        <Price>
+          {user === "empresa"
+            ? "R$ 1,00/un"
+            : history
+            ? "R$ 600,00"
+            : "600/un por mês"}
+        </Price>
       </Column>
       <Column>
         <ColumnTitle>
