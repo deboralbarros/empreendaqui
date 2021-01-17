@@ -23,10 +23,10 @@
     <img src="src/images/logo_full_transparente.png" alt="logo_full_transparente" width="200" height="150">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Aplicação com foco em Web Mobile</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A solução que você estava esperando para se tornar um futuro empreendedor, com as ferramentas necessárias que te ajudam a trilhar essa jornada!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
