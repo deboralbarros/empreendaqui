@@ -23,15 +23,18 @@
     <img src="src/images/logo_full_transparente.png" alt="logo_full_transparente" width="200" height="150">
   </a>
 
-  <h3 align="center">Aplicação com foco em Web Mobile</h3>
-
-  <p align="center">
-    A solução que você estava esperando para se tornar um futuro empreendedor, com as ferramentas necessárias que te ajudam a trilhar essa jornada!
-    <br />
-    <a href="https://www.figma.com/file/qQgBlxboVCGTH9rw9iIRry/EmpreendAqui?node-id=0%3A1"><strong>Explore a nossa solução! »</strong></a>
-    <br />
-    <a href="https://empreendaqui.vercel.app/">Veja a Demo</a>
-  </p>
+  <h4 align="center">Aplicação com foco em Web Mobile</h4>
+  </br>
+  </br>
+  <h3 
+    <p align="center">
+      A solução que você estava esperando para se tornar um futuro empreendedor, com as ferramentas necessárias que te ajudam a trilhar essa jornada!
+      <br />
+      <a href="https://www.figma.com/file/qQgBlxboVCGTH9rw9iIRry/EmpreendAqui?node-id=0%3A1"><strong>Explore a nossa solução! »</strong></a>
+      <br />
+      <a href="https://empreendaqui.vercel.app/">Veja a Demo</a>
+    </p>
+  </h3>
 </p>
 
 <!-- SUMARY -->
