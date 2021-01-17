@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 
 import { Container, List } from "./style";
@@ -9,7 +10,13 @@ import Button from "../../components/Button";
 const ProvidersList = () => {
   const history = useHistory();
 
-  const user = "fornecedor";
+  const [user, setUser] = useState("");
+
+  useEffect(() => {
+    const localUser = localStorage.getItem("user");
+
+    setUser(localUser);
+  }, [user]);
 
   const backToSearchProviders = () => {
     if (user === "empresa") {

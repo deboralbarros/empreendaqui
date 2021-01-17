@@ -7,30 +7,31 @@ export const Container = styled.div`
       : background === "jovem"
       ? "rgba(79, 145, 193, 0.22)"
       : "rgba(222, 103, 103, 0.08)"};
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 `;
 
 export const Title = styled.h1`
-  width: 100%;
-  justify-content: space-around;
-  padding: 20px;
-  padding-bottom: 120px;
-  color: rgba(0, 0, 0, 0.34);
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 auto;
   text-transform: uppercase;
-  font-size: 24px;
-  font-weight: 1000;
-  text-align: center;
 `;
 
-export const Applogo = styled.img`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  width: 100%;
+export const P = styled.p`
+  margin: 15px 0;
+  width: 90%;
+  font: 300 18px "IBM Plex Sans", sans-serif;
+`;
+
+export const Link = styled.a`
+  color: #005aac;
+  opacity: 0.7;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  width: 90%;
+  margin: 0 auto 20px;
 `;
