@@ -6,6 +6,7 @@ const Button = ({
   background,
   shadow,
   width,
+  border,
   color = "#fff",
 }) => {
   return (
@@ -15,6 +16,7 @@ const Button = ({
       shadow={shadow}
       width={width}
       color={color}
+      border={border}
     >
       {children}
     </Container>
