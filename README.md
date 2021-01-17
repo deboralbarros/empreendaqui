@@ -34,24 +34,24 @@
   </p>
 </p>
 
-<!-- TABLE OF CONTENTS -->
+<!-- SUMARY -->
 <details open="open">
   <summary>Sumário</summary>
   <ol>
     <li>
       <a href="#sobre-o-projeto">Sobre o Projeto</a>
     </li>
+    <li><a href="#publico-alvo">Público Alvo</a></li>
     <li>
       <a href="#instalacao-ferramentas">Instalação das Ferramentas</a>
     </li>
     <li>
       <a href="#desenvolvendo-o-projeto">Desenvolvendo o Projeto</a>
       <ul>
-        <li><a href="#design-telas">Design das Telas</a></li>
+        <li><a href="#design-telas">Design e Construção das Telas</a></li>
         <li><a href="#codigo">Código</a></li>
       </ul>
     </li>
-    <li><a href="#publico-alvo">Público Alvo</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#time">Time</a>
       <ul>
