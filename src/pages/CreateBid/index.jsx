@@ -12,6 +12,12 @@ const CreateBid = () => {
     history.push("/providersoptions");
   };
 
+  const navigateToHome = (e) => {
+    e.preventDefault();
+
+    history.push("/home");
+  };
+
   return (
     <Container>
       <Header
@@ -36,7 +42,12 @@ const CreateBid = () => {
           <Input id="amount" />
         </Category>
 
-        <Button background="#4FC18E" width="80%" shadow>
+        <Button
+          background="#4FC18E"
+          width="80%"
+          shadow
+          onClick={navigateToHome}
+        >
           Criar Licitação
         </Button>
       </Form>
