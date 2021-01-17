@@ -30,8 +30,7 @@
     <br />
     <a href="https://www.figma.com/file/qQgBlxboVCGTH9rw9iIRry/EmpreendAqui?node-id=0%3A1"><strong>Explore a nossa solução! »</strong></a>
     <br />
-    <br />
-    <a href="https://google.com">Veja a Demo</a>
+    <a href="https://empreendaqui.vercel.app/">Veja a Demo</a>
   </p>
 </p>
 
