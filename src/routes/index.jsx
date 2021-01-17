@@ -1,5 +1,6 @@
 import { Switch, Route } from "react-router-dom";
 
+import InitialPage from "../pages/InitialPage";
 import SearchProviders from "../pages/SearchProviders";
 import ProvidersList from "../pages/ProvidersList";
 import Provider from "../pages/Provider";
@@ -14,7 +15,7 @@ import Login from "../pages/Login";
 
 const Routes = () => (
   <Switch>
-    <Route path="/" exact />
+    <Route path="/" exact component={InitialPage} />
     <Route path="/register" exact />
     <Route path="/login" exact component={Login} />
     <Route path="/findcustomers" exact />

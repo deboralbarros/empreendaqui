@@ -3,6 +3,8 @@ import { useHistory } from "react-router-dom";
 
 import { Container, Title, Applogo } from "./style";
 
+import Logo from "../../images/nome_preto.png";
+
 import Button from "../../components/Button";
 import Footer from "../../components/Footer";
 
@@ -35,7 +37,9 @@ const Home = () => {
 
   return (
     <Container background={user}>
-      <Title>EmpreendAqui</Title>
+      <Title>
+        <img src={Logo} alt="EmpreendAqui" />
+      </Title>
 
       <Button
         background={

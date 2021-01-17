@@ -7,11 +7,13 @@ export const Container = styled.div`
       : background === "jovem"
       ? "rgba(79, 145, 193, 0.22)"
       : "rgba(222, 103, 103, 0.08)"};
-  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding: 0;
 `;
 
 export const Title = styled.h1`
