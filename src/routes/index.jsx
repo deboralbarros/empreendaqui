@@ -7,6 +7,7 @@ import TransactionHistory from "../pages/TransactionHistory";
 import CreateBid from "../pages/CreateBid";
 import Customer from "../pages/Customer";
 import Tips from "../pages/Tips";
+import HomeProvider from "../pages/HomeProvider";
 
 const Routes = () => (
   <Switch>
@@ -14,7 +15,7 @@ const Routes = () => (
     <Route path="/register" exact />
     <Route path="/login" exact />
     <Route path="/findcustomers" exact />
-    <Route path="/home" exact />
+    <Route path="/home" exact component={HomeProvider} />
     <Route path="/options" exact />
     <Route path="/profile" exact />
     <Route path="/provider" exact component={Provider} />

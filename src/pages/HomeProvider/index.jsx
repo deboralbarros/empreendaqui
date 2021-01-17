@@ -1,57 +1,80 @@
 import { useHistory } from "react-router-dom";
 
-import { Container, Form, Label, Select, Title, Applogo } from "./style";
+import { Container, Title, Applogo } from "./style";
 
 import Button from "../../components/Button";
+import Footer from "../../components/Footer";
 
-import logoHome from '../../images/Group1.png';
+import logoHome from "../../images/Group1.png";
+import fornecedor from "../../images/Group3.png";
+import jovem from "../../images/Group2.png";
 
 const HomeProvider = () => {
-    const history = useHistory();
+  const history = useHistory();
 
-    const navigateToProvidersOptions = (e) => {
-        e.preventDefault();
+  const user = "jovem";
 
-        history.push("/providersoptions");
-    };
+  const navigateToProvidersOptions = (e) => {
+    e.preventDefault();
 
-    const navigateToOptions = (e) => {
-        e.preventDefault();
+    history.push("/providersoptions");
+  };
 
-        history.push("/options");
-    };
+  const navigateToOptions = (e) => {
+    e.preventDefault();
 
-    const navigateToLogin = (e) => {
-        e.preventDefault();
+    history.push("/options");
+  };
 
-        history.push("/login");
-    };
+  const navigateToLogin = (e) => {
+    e.preventDefault();
 
-    return (
-        <Container>
-            <Form>
+    history.push("/login");
+  };
 
-                <Title>
-                    NOME-DA-EMPRESA
-                </Title>
+  return (
+    <Container background={user}>
+      <Title>NOME-DA-EMPRESA</Title>
 
-            
-                <Button
-                    background="#4FC18E"
-                    width="80%"
-                    onClick={navigateToProvidersOptions}
-                >
-                    Procurar Fornecedores
-                </Button>
-            </Form>
-                
-            <Applogo 
-                src={logoHome} alt="logoHome"
-            >
+      <Button
+        background={
+          user === "empresa"
+            ? "#4FC18E"
+            : user === "fornecedor"
+            ? "#DE6767"
+            : "#4F91C1"
+        }
+        width="80%"
+        onClick={navigateToProvidersOptions}
+        shadow
+      >
+        {user === "empresa"
+          ? "Procurar Fornecedores"
+          : user === "fornecedor"
+          ? "Encontrar Clientes"
+          : "Comece seu negócio"}
+      </Button>
 
-            </Applogo>
-        </Container>
-    );
+      <div>
+        <Applogo
+          src={
+            user === "empresa"
+              ? logoHome
+              : user === "fornecedor"
+              ? fornecedor
+              : jovem
+          }
+          alt="logoHome"
+        ></Applogo>
+
+        <Footer
+          history={
+            user === "fornecedor" ? true : user === "empresa" ? true : false
+          }
+        />
+      </div>
+    </Container>
+  );
 };
 
 export default HomeProvider;
