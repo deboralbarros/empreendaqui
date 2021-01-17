@@ -63,6 +63,7 @@
       </ul>
     </li>
     <li><a href="#contatos">Contatos</a></li>
+    <li><a href="#bibliografia">Bibliografia</a></li>
   </ol>
 </details>
 
