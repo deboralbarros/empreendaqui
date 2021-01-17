@@ -35,6 +35,11 @@ const SearchProviders = () => {
             ? "Escolha o tipo de fornecedor"
             : "Escolha o tipo de licitação"
         }
+        onBack={() =>
+          user !== "fornecedor"
+            ? history.push("/providersoptions")
+            : history.push("/home")
+        }
       />
 
       <Form>

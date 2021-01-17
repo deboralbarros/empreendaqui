@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: rgba(79, 193, 142, 0.22);
+  background-color: ${({ background }) =>
+    background === "empresa"
+      ? "rgba(79, 193, 142, 0.22)"
+      : background === "jovem"
+      ? "rgba(79, 145, 193, 0.22)"
+      : "rgba(222, 103, 103, 0.08)"};
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,7 +26,7 @@ export const Title = styled.h1`
   text-align: center;
 `;
 
-export const Form = styled.form`
+export const Form = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,6 +54,7 @@ export const Applogo = styled.img`
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  width: 100%;
   padding-top: 50px;
 `;
 

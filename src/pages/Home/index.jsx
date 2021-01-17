@@ -23,9 +23,7 @@ const Home = () => {
     setUser(localUser);
   }, [user]);
 
-  const navigateToProvidersOptions = (e) => {
-    e.preventDefault();
-
+  const navigateToProvidersOptions = () => {
     history.push("/providersoptions");
   };
 
@@ -44,7 +42,11 @@ const Home = () => {
             : "#4F91C1"
         }
         width="80%"
-        onClick={navigateToProvidersOptions}
+        onClick={() =>
+          user !== "fornecedor"
+            ? navigateToProvidersOptions()
+            : history.push("/searchbid")
+        }
         shadow
       >
         {user === "empresa"

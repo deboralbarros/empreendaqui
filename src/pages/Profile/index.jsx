@@ -23,7 +23,7 @@ const Profile = () => {
 
   return (
     <Container background={user}>
-      <Header title="PERFIL" />
+      <Header title="PERFIL" onBack={() => history.push("/home")} />
       <Form>
         <Button background="transparent" color="rgba(0, 0, 0, 1)">
           Editar Perfil

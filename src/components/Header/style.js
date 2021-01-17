@@ -12,6 +12,7 @@ export const Title = styled.h1`
   color: rgba(0, 0, 0, 0.22);
   font-weight: 500;
   font-size: 24px;
+  text-transform: uppercase;
 `;
 
 export const Button = styled.button`

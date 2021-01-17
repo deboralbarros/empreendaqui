@@ -1,47 +1,74 @@
+import { useState, useEffect } from "react";
+
 import { useHistory } from "react-router-dom";
 
-import { Container, Form, Label, Select, Title, Applogo, Space } from "./style";
+import { Container, Form, Applogo, Space } from "./style";
 
+import Header from "../../components/Header";
 import Button from "../../components/Button";
 
 import logoFornecedores from "../../images/GroupFornecedores.png";
+import logoJovem from "../../images/Group16.png";
 
 const ProvidersOptions = () => {
   const history = useHistory();
 
-  const navigateToSearchProviders = (e) => {
-    e.preventDefault();
+  const [user, setUser] = useState("");
 
-    history.push("/searchproviders");
+  useEffect(() => {
+    setUser(localStorage.getItem("user"));
+  }, [user]);
+
+  const navigateToHome = () => {
+    history.push("/home");
   };
 
-  const navigateToCreateBid = (e) => {
-    e.preventDefault();
-
-    history.push("/createbid");
+  const navigateTo = (route) => () => {
+    history.push(`/${route}`);
   };
 
   return (
-    <Container>
+    <Container background={user}>
+      <Header
+        title={user === "empresa" ? "Fornecedores" : "Comece seu negócio"}
+        onBack={navigateToHome}
+      />
       <Form>
-        <Title>Fornecedores</Title>
-
         <Button
-          background="#4FC18E"
-          width="80%"
-          onClick={navigateToSearchProviders}
+          background={user === "jovem" ? "#4F91C1" : "#4FC18E"}
+          width="100%"
+          shadow
+          onClick={
+            user === "jovem"
+              ? navigateTo("tips")
+              : navigateTo("searchproviders")
+          }
         >
-          LISTA DE FORNECEDORES
+          {user === "jovem"
+            ? "Orientações para empreender"
+            : "Lista de Fornecedores"}
         </Button>
 
         <Space></Space>
 
-        <Button background="#4FC18E" width="80%" onClick={navigateToCreateBid}>
-          CRIAR PROCURA DE PRODUTO
+        <Button
+          shadow
+          background={user === "jovem" ? "#4FC18E" : "#4F91C1"}
+          width="100%"
+          onClick={
+            user === "jovem" ? navigateTo("turnsmei") : navigateTo("createbid")
+          }
+        >
+          {user === "jovem"
+            ? "Saiba como virar MEI"
+            : "Criar licitação de produto"}
         </Button>
       </Form>
 
-      <Applogo src={logoFornecedores} alt="logoFornecedores"></Applogo>
+      <Applogo
+        src={user === "jovem" ? logoJovem : logoFornecedores}
+        alt="logoFornecedores"
+      ></Applogo>
     </Container>
   );
 };

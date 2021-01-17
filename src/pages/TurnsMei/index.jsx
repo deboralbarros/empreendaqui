@@ -1,3 +1,5 @@
+import { useHistory } from "react-router-dom";
+
 import { Container, Title, P, Link } from "./style";
 
 import Header from "../../components/Header";
@@ -7,9 +9,14 @@ import Video from "../../images/video2.png";
 const TurnsMei = () => {
   const user = "jovem";
 
+  const history = useHistory();
+
   return (
     <Container background={user}>
-      <Header title="Dicas e estratégias" />
+      <Header
+        title="Dicas e estratégias"
+        onBack={() => history.push("/providersoptions")}
+      />
       <Title>Como se tonar um MEI</Title>
       <P>
         O que temos que ter sempre em mente é que o desenvolvimento contínuo de

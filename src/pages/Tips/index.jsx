@@ -1,3 +1,5 @@
+import { useHistory } from "react-router-dom";
+
 import { Container, Title, P } from "./style";
 
 import Header from "../../components/Header";
@@ -7,9 +9,14 @@ import Video from "../../images/video1.png";
 const Tips = () => {
   const user = "jovem";
 
+  const history = useHistory();
+
   return (
     <Container background={user}>
-      <Header title="Dicas e estratégias" />
+      <Header
+        title="Dicas e estratégias"
+        onBack={() => history.push("/providersoptions")}
+      />
       <Title>Como começar seu negócio?</Title>
       <P>
         É importante questionar o quanto a execução dos pontos do programa
