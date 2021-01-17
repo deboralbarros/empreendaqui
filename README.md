@@ -24,7 +24,7 @@
   </a>
   
   <h3>
-      <p align="center" color:"#447497">
+      <p align="center">
         Aplicação com foco em Web Mobile
       </p>
   </h3>
