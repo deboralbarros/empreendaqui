@@ -5,8 +5,6 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -20,7 +18,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/deboralbarros/hackathon-ccr2">
-    <img src="src/images/logo_full_transparente.png" alt="logo_full_transparente" width="300" height="250">
+    <img src="src/images/logo_full_transparente.png" alt="logo_full_transparente" width="350" height="250">
   </a>
   
   <h3>
@@ -70,14 +68,12 @@
         <li><a href="#desenvolvedores">Desenvolvedores da Aplicação</a></li>
       </ul>
     </li>
-    <li><a href="#contatos">Contatos</a></li>
     <li><a href="#bibliografia">Bibliografia</a></li>
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## Sobre o Projeto
 
 <p align="center">
@@ -89,73 +85,110 @@
 <strong>EmpreendAqui</strong> é uma aplicação Web Mobile com foco em ajudar o jovem empreendedor a trilhar essa jornada, através de uma plataforma digital que oferece apoio ao jovem de baixa renda que deseja iniciar um primeiro negócio, além de conectá-lo à empresas e fornecedores de suprimentos.
 
 Motivação:
-* O jovem é A aplicação EmpreendAqui ajuda o jovem a iniciar seu próprio negócio 
-* 
-* 
-*
+
+- O jovem é A aplicação EmpreendAqui ajuda o jovem a iniciar seu próprio negócio
+-
+-
+-
 
 <!-- GETTING STARTED -->
+
 ## Instalação das Ferramentas
 
+Para a instalar as ferramentas necessárias para rodar este projeto, é necessário que você tenha instalado em sua máquina:
+
+<ul>
+  <li>
+    <a href="https://git-scm.com/">Git</a>
+  </li>
+  <li>
+  <a href="https://nodejs.org/en">npm</a>
+  </li>
+  <li>
+  <a href="https://yarnpkg.com/">yarn</a> (opcional)
+  </li>
+</ul>
+
+Após ter as ferramentas necessárias para instalar, você deve clonar este repositório na sua máquina, rodando o seguinte código em um terminal:
+
+```
+  git clone https://github.com/deboralbarros/empreendaqui.git/
+```
+
+Então, você precisa instalar as dependências do projeto:
+
+```
+cd empreendaqui
+npm install
+```
+
+O comando <code>npm instal</code> pode ser substituído por <code>yarn</code>, caso você tenha instalado o yarn em sua máquina.
+
+Então, para rodar o projeto, basta rodar <code>npm start</code> ou <code>yarn start</code> no seu terminal.
+
 <!-- DEVELOPING THE CODE -->
+
 ## Desenvolvendo o Código
 
-<!-- DESIGN -->
 ### Design e Construção das Telas
 
 <!-- THE CODE -->
+
 ### O Código
 
-
 <!-- ROADMAP -->
+
 ## Roadmap
 
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
-
 <!-- ROADMAP -->
+
 ## RoadMap
 
-
 <!-- TEAM -->
+
 ## Equipe
 
 ### Entusiasta da Educação
 
+[Ana Clara Soares](https://www.linkedin.com/in/anaclarasoareso/)
+
 ### Design/UX
+
+[Yago Webster](https://linkedin.com/in/yagowebster)
 
 ### Marketing
 
+[Tedy Magalhães](https://www.linkedin.com/in/tedymas/)
+
 ### Desenvolvedores da Aplicação
 
+[Stéfany Coimbra](https://www.linkedin.com/in/st%C3%A9fany-coimbra-23780a16b)
 
-
-<!-- CONTACTS -->
-## Contacts
-
+[Débora Barros](https://linkedin.com/in/debora-lbarros)
 
 <!-- ACKNOWLEDGEMENTS -->
+
 ## Bibliografia
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
 
-
-
-
+- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+- [Img Shields](https://shields.io)
+- [Choose an Open Source License](https://choosealicense.com)
+- [GitHub Pages](https://pages.github.com)
+- [Animate.css](https://daneden.github.io/animate.css)
+- [Loaders.css](https://connoratherton.com/loaders)
+- [Slick Carousel](https://kenwheeler.github.io/slick)
+- [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
+- [Sticky Kit](http://leafo.net/sticky-kit)
+- [JVectorMap](http://jvectormap.com)
+- [Font Awesome](https://fontawesome.com)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
