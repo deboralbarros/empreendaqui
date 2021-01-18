@@ -128,7 +128,7 @@ Então, para rodar o projeto, basta rodar <code>npm start</code> ou <code>yarn s
 
 <!-- DEVELOPING THE CODE -->
 
-## Desenvolvendo o Código
+## Desenvolvendo o Projeto
 
 Sistemas Operacionais utilizados: Windows 10 e Linux: Distribuição Pop!_OS
 Linguagem de Porgramação: Javascript
