@@ -85,10 +85,12 @@
 <strong>EmpreendAqui</strong> é uma aplicação Web Mobile com foco em ajudar o jovem empreendedor a trilhar essa jornada, através de uma plataforma digital que oferece apoio ao jovem de baixa renda que deseja iniciar um primeiro negócio, além de conectá-lo à empresas e fornecedores de suprimentos.
 
 Motivação:
+* Em uma pesquisa feita pela equipe, vários jovens entre a faixa etária de 18 a 24 anos relataram possuírem a vontade de abrirem o próprio negócio ao invés de se tornarem funcionários de companhias, pelo motivo do desejo de não continuarem desempregados.
+* O jovem é um público alvo do desemprego e, muitas vezes, procura de geração de renda de forma informal na situação atual. A aplicação EmpreendAqui ajuda ele/ela a iniciar seu próprio negócio, com o intuito de legalizar seu empreendimento e torná-lo um MEI. 
+* Do ponto de vista das empresas, estas podem se beneficiar da expansão e inovação de seus negócios e alcance de novos talentos, além do encorajamento de apoiamento das causas sociais e uma postura moderna e aberta a novos processos. A solução também as oferece oportunidades de conexão com os futuros empreendedores que estão se adentrando no mercado.
+* Os fornecedores, ainda, lucram com a aplicação, por dada a oportunidade de uma abertura maior de possibilidades de negócios, além disso de maneira a se tornarem peça chave na dsponibilização de suprimentos para os jovens citados do problema. 
 
-- A aplicação EmpreendAqui ajuda o jovem a iniciar seu próprio negócio
-- Dá instruções para que o jovem que quer empreender se formalize
-- Conecta os empreendedores com empresas que forneçam os recursos para estes
+Assim, EmpreendAqui é uma aplicação Web Mobile que contempla os três pilares do empreendimento: Jovens Empreendedores, Empresas e Fornecedores de Suprimentos.
 
 <!-- GETTING STARTED -->
 
@@ -129,23 +131,22 @@ Então, para rodar o projeto, basta rodar <code>npm start</code> ou <code>yarn s
 
 ## Desenvolvendo o Código
 
+Sistemas Operacionais utilizados: Windows 10 e Linux: Distribuição Pop!_OS
+Linguagem de Porgramação: Javascript
+
 ### Design e Construção das Telas
+
+Antes do início do desenvolvimento dos códigos, primeiramente foram construídos e feito o design das telas, a partir da plataforma do Figma. Para visualizar, acesse:           <a href="https://www.figma.com/file/qQgBlxboVCGTH9rw9iIRry/EmpreendAqui?node-id=0%3A1"></a>
 
 <!-- THE CODE -->
 
 ### O Código
 
-<!-- ROADMAP -->
+Para a construção e desenvolvimento dos códigos, foi utilizada a plataforma VS Code. Para mais informações, acesse: 
+<a href="https://code.visualstudio.com/"><strong>Informações do VS Code »</strong></a>
 
-## Roadmap
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-<!-- ROADMAP -->
-
-## RoadMap
+Para acessar nossa solução e códigos, acesse:
+<a href="https://github.com/deboralbarros/empreendaqui"><strong>GitHub EmpreendAqui »</strong></a>
 
 <!-- TEAM -->
 
