@@ -136,7 +136,7 @@ Linguagem de Porgramação: Javascript
 
 ### Design e Construção das Telas
 
-Antes do início do desenvolvimento dos códigos, primeiramente foram construídos e feito o design das telas, a partir da plataforma do Figma. Para visualizar, acesse:           <a href="https://www.figma.com/file/qQgBlxboVCGTH9rw9iIRry/EmpreendAqui?node-id=0%3A1"></a>
+Antes do início do desenvolvimento dos códigos, primeiramente foram construídos e feito o design das telas, a partir da plataforma do Figma. Para visualizar, acesse:           <a href="https://www.figma.com/file/qQgBlxboVCGTH9rw9iIRry/EmpreendAqui?node-id=0%3A1"><strong>Design das Telas »</strong></a>
 
 <!-- THE CODE -->
 
