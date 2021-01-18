@@ -59,7 +59,6 @@
         <li><a href="#codigo">O Código</a></li>
       </ul>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#time">Time</a>
       <ul>
         <li><a href="#entusiasta">Entusiasta da Educação</a></li>
