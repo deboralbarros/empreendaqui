@@ -86,10 +86,9 @@
 
 Motivação:
 
-- O jovem é A aplicação EmpreendAqui ajuda o jovem a iniciar seu próprio negócio
--
--
--
+- A aplicação EmpreendAqui ajuda o jovem a iniciar seu próprio negócio
+- Dá instruções para que o jovem que quer empreender se formalize
+- Conecta os empreendedores com empresas que forneçam os recursos para estes
 
 <!-- GETTING STARTED -->
 
